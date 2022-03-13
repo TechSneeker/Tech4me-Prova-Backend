@@ -4,7 +4,7 @@
 <p>Primeira avaliação do modulo fundamentos de desenvolvimento backend</p>
 
 <h2>1) Descreva o comando para criação do banco(utilizado no Mongosh ou Compass), que deverá ser chamado de tech4music</h2>
-<p>Resposta: Utilize o comando<code>use tech4music</code> no Mongosh para criação do banco.</p>
+<p>Resposta: Utilize o comando<code>use tech4music</code>no Mongosh para criação do banco.</p>
 
 <h2>2) Descreva o comando para criar a coleção musicas inserindo três na mesma</h2>
 <p>Resposta: Primeiro defina o banco que pretende criar as coleções</p>
