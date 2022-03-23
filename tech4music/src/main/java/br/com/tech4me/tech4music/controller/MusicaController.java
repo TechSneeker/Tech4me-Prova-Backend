@@ -47,10 +47,10 @@ public class MusicaController {
     @GetMapping("/{id}")
     public ResponseEntity<MusicaDto> obterMusicaId(@PathVariable @Valid String id) {
 
-        Optional<MusicaDto> computer = servico.obterMusicaPeloId(id);
+        Optional<MusicaDto> musica = servico.obterMusicaPeloId(id);
 
-        if(computer.isPresent()) {
-            return new ResponseEntity<>(mapper.map(computer.get(), MusicaDto.class), HttpStatus.FOUND);
+        if(musica.isPresent()) {
+            return new ResponseEntity<>(mapper.map(musica.get(), MusicaDto.class), HttpStatus.FOUND);
 
         }
 
